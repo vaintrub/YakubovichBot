@@ -1,0 +1,10 @@
+{
+   "dbdriver" : "dbi:SQLite:dbname=",
+   "dbname" : "database.db",
+   "user" : "",
+   "password" : "",
+   "parameters" : {
+           "sqlite_unicode" : 1,
+           "RaiseError" : 1
+   }
+}
