@@ -23,5 +23,4 @@ sub _build_dbh {
     return $schema;
 }
 
-__PACKAGE__->meta->make_immutable();
-
+1;

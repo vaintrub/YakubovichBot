@@ -9,13 +9,11 @@ use FindBin '$Bin';
 use lib "$Bin/../lib";
 use TelegramClient;
 use Controller;
-use Getopt::Long;
 use EV;
 use Coro;
 # use Coro::EV;
 
-my $TOKEN;
-GetOptions ("token=s" => \$TOKEN) or die("Error in command line arguments\n");
+my $TOKEN = $ENV{TOKEN};
 die "token required" unless $TOKEN;
 
 my $t_client = TelegramClient->new(token => $TOKEN);
