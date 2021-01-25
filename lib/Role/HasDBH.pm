@@ -10,7 +10,7 @@ has dbh => (is => 'rw', isa => 'Model::Schema', lazy_build => 1);
 
 sub _build_dbh {
     my $self = shift;
-    my $config = Config::JSON->new(pathToFile => file($Bin)->dir->file('config.json'));
+    my $config = Config::JSON->new(pathToFile => file($Bin)->dir->file('db_conf.json'));
     my $dbpath = file($Bin)->dir->file('storage', 'database.db');
     my $dsn = $config->get('dbdriver').$dbpath;
     my $schema = Model::Schema->connect(
