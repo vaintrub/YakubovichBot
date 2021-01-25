@@ -1,19 +1,19 @@
 FROM perl:5.20
 
-RUN cpanm -n --install \
-    LWP::UserAgent \
-    DBIx::Class \
-    EV \
-    Coro \
-    Data::Dumper \
-    Mouse \
-    JSON::XS \
-    Net::SSLeay \
-    URI::Escape \
-    AnyEvent::HTTP \
-    Mouse::Role \
-    Config::JSON \
-    Path::Class 
+RUN cpanm --notest --install \
+        LWP::UserAgent \
+        DBIx::Class \
+        EV \
+        Coro \
+        Data::Dumper \
+        Mouse \
+        JSON::XS \
+        Net::SSLeay \
+        URI::Escape \
+        AnyEvent::HTTP \
+        Mouse::Role \
+        Config::JSON \
+        Path::Class 
 
 WORKDIR /usr/src/YakubovichBot
 
