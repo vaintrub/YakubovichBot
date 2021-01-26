@@ -51,6 +51,11 @@ ID игры:                 Кол. человек:
 
 3. If you want to connect to an existing game: ***`Якубович игра 1`***
 4. If you want to create a new game for 3 people: ***`Якубович новая игра 3`***
+```
+YourName, ваша игра: [ id - 2 ], [ Участников - 1/3 ]
+
+Ожидание игроков...
+```
 5. Enjoy the game
 
 
