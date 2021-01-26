@@ -1,4 +1,4 @@
-# 🚀 Yakubovich Bot 
+# 🚀 [Yakubovich Bot](t.me/yakubovich_game_bot)
 ![](http://boobooka.com/wp-content/uploads/2019/02/zastavka-pole-chudes.jpg)
 ## ☝️ What is it?
 This is a Game "Field Of Miracle (Поле чудес)" for Telegram.
