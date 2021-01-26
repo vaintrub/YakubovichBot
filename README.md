@@ -13,25 +13,25 @@ The YakubovichBot can be used in:
 
 
 ## 👌 Available commands
-#### Syntax
+### Syntax
 `Якубович [command] [param]`
-#### States:
-0. Available in all states:
+### States:
+#### 0. Available in all states:
    - ***help***             
    > Get help
    - ***рейтинг***          
    > Show rating in this chat
-1. Preparing:
+#### 1. Preparing:
    - ***начинай***           
    > Show list of available sessions in this chat. And brief explanation of how to start game 
    - ***новая игра [n]***    
    > Create new session with n people
    - ***игра [id]***         
    > Join to session with id
-2. Waiting:
+#### 2. Waiting:
    - ***отключиться***       
    > Disconnect from session. Note! All participants will be disbanded
-3. Game:
+#### 3. Game:
    - ***буква [character]*** 
    > Give a character like a answer
    - ***слово [word]***      
