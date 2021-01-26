@@ -39,7 +39,7 @@ The YakubovichBot can be used in:
 
 
 ## 👨‍🎓 How to play this game
-1. Add a bot to a conversation.
+1. Add the bot to a conversation.
 2. ***`Якубович начинай`***
 ```
 ...
