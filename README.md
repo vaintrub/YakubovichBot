@@ -39,10 +39,19 @@ The YakubovichBot can be used in:
 
 
 ## 👨‍🎓 How to play this game
-1. a 
-2. b
-3. c
-4. d
+1. Add a bot to a conversation.
+2. ***`Якубович начинай`***
+```
+...
+...
+Список доступных игр:
+ID игры:                 Кол. человек:
+1                        2/3
+```
+
+3. If you want to connect to an existing game: ***`Якубович игра 1`***
+4. If you want to create a new game for 3 people: ***`Якубович новая игра 3`***
+5. Enjoy the game
 
 
 ## 🗺 Image version 
