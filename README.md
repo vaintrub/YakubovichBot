@@ -3,6 +3,11 @@
 ## ☝️ What is it?
 This is a Game "Field Of Miracle (Поле чудес)" for Telegram.
 
+## 📚 Technologies
+This project is powered by Perl.
+
+To store information about users and game sessions, a database was selected sqlite.
+
 ## ✌️ Who is this game for?
 The YakubovichBot can be used in:
 - A private chat
@@ -10,6 +15,7 @@ The YakubovichBot can be used in:
 - A group chat
    * Multiplayer games supported
    * One chat can have several game sessions at the same time
+   * User can play in different chats at the same time
 
 
 ## 👌 Available commands
@@ -60,14 +66,22 @@ YourName, ваша игра: [ id - 2 ], [ Участников - 1/3 ]
 
 
 ## 📝 Deployment
+### Docker
+1. Clone this repository
+2. If you have docker installed you can simply run:
 
+```
+cd YakubovichBot
+docker build -t yakubot .
+docker run --rm -d --name yakubot -e TOKEN=YOUR_TOKEN yakubot
+```
+To start the bot in debug mode, you also need to add a flag with enviroment variable `-e BOT_DEBUG=1` and remove `-d`
+
+***Note:** If you want the database to be saved after restarting the application, you can add a flag: 
+
+`-v /Your/local/path/YakubovichBot/storage:/usr/src/YakubovichBot/storage`*
 
 ## ☑️ TODO
-- [x] Hey
-- [] Hey
-
-
-## 📊 
-
-## 📚
+- [ ] Handle cases where the user does not have a nickname or first name 
+- [ ] Make the session class standalone
 
