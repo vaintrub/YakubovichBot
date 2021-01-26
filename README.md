@@ -54,8 +54,6 @@ ID игры:                 Кол. человек:
 5. Enjoy the game
 
 
-## 🗺 Image version 
-
 ## 📝 Deployment
 
 
