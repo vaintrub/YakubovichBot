@@ -39,9 +39,9 @@ The YakubovichBot can be used in:
    > Disconnect from session. Note! All participants will be disbanded
 3. Game:
    - ***буква [character]*** 
-   > Give a character like a answer
+   > Give a character like an answer
    - ***слово [word]***      
-   > Give a word like a answer
+   > Give a word like an answer
 
 
 ## 👨‍🎓 How to play this game
