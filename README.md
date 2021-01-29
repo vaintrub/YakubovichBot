@@ -84,4 +84,5 @@ To start the bot in debug mode, you also need to add a flag with enviroment vari
 ## ☑️ TODO
 - [ ] Handle cases where the user does not have a nickname or first name 
 - [ ] Make the session class standalone
+- [ ] Build logs
 
