@@ -34,6 +34,6 @@ __PACKAGE__->add_unique_constraint([qw(id)]);
 
 __PACKAGE__->has_one(session => 'Model::Schema::Result::Session', {'foreign.id' => 'self.id_session'}, {cascade_delete => 0});
 __PACKAGE__->belongs_to(player => 'Model::Schema::Result::Player', {'foreign.id' => 'self.id_player'});
-__PACKAGE__->belongs_to(player_state => 'Model::Schema::Result::PlayerStates', {'foreign.id_player' => 'self.id_player'});
+__PACKAGE__->has_one(player_state => 'Model::Schema::Result::PlayerStates', {'foreign.id_player' => 'self.id_player'});
 
 1;

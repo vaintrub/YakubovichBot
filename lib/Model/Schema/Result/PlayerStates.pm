@@ -33,6 +33,6 @@ __PACKAGE__->set_primary_key('id');
 __PACKAGE__->add_unique_constraint([qw(id)]);
 
 __PACKAGE__->belongs_to(player => 'Model::Schema::Result::Player', {'foreign.id' => 'self.id_player'});
-__PACKAGE__->has_many(sessinfo => 'Model::Schema::Result::SessInfo', {'foreign.id_player' => 'self.id_player'}, {cascade_delete => 0});
+__PACKAGE__->belongs_to(sessinfo => 'Model::Schema::Result::SessInfo', {'foreign.id_player' => 'self.id_player'}, {cascade_delete => 0});
 
 1;
