@@ -26,6 +26,8 @@ sub _trigger_state {
 sub BUILDARGS {
     my ($class, %args) = @_;
     $args{username} = '@'. ($args{username} || $args{first_name});
+    $args{first_name} = $args{first_name} || $args{last_name};
+    $args{last_name} = $args{last_name} || $args{first_name};
     return \%args;
 }
 sub BUILD {
