@@ -82,7 +82,8 @@ To start the bot in debug mode, you also need to add a flag with enviroment vari
 `-v /Your/local/path/YakubovichBot/storage:/usr/src/YakubovichBot/storage`*
 
 ## ☑️ TODO
-- [ ] Handle cases where the user does not have a nickname or first name 
+- [ ] Create unit tests!!!
+- [x] Handle cases where the user does not have a nickname or first name 
 - [ ] Make the session class standalone
 - [ ] Build logs
 
